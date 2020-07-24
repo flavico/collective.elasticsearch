@@ -18,6 +18,10 @@ Changelog
 - Adapted to Elastic Search 7.7
   [flavico]
 
+- Possibility to apply analyzed index on mapping
+  [flavico]
+
+
 3.0.4 (2019-08-21)
 ------------------
 
