@@ -1,0 +1,7 @@
+<layers>
+  <layer
+    remove="True"
+    name="collective.elasticsearch"
+    interface="collective.elasticsearch.interfaces.IElasticSearchLayer"
+    />
+</layers>

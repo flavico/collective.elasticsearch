@@ -19,6 +19,14 @@
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />
 
+  <genericsetup:registerProfile
+    name="unistall"
+    title="Elastic Search"
+    directory="profiles/unistall"
+    description="Uninstall the Elastic Search plone integration package"
+    provides="Products.GenericSetup.interfaces.EXTENSION"
+    />    
+
   <genericsetup:upgradeSteps
         source="*"
         destination="1"
