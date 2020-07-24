@@ -49,7 +49,7 @@ class ElasticResult(object):
         self.results = {
             0: result['hits']
         }
-        self.count = result['total']
+        self.count = result['total']['value']
         self.query_params = query_params
 
     def __len__(self):
