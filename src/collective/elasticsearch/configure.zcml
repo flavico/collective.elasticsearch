@@ -20,9 +20,9 @@
     />
 
   <genericsetup:registerProfile
-    name="unistall"
-    title="Elastic Search Unistall"
-    directory="profiles/unistall"
+    name="uninstall"
+    title="Elastic Search Uninstall"
+    directory="profiles/uninstall"
     description="Uninstall the Elastic Search plone integration package"
     provides="Products.GenericSetup.interfaces.EXTENSION"
     />    
