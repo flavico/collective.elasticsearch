@@ -164,7 +164,6 @@ class ElasticSearchCatalog(object):
             body['sort'] = sort
 
         return self.connection.search(index=self.index_name,
-                                      doc_type=self.doc_type,
                                       body=body,
                                       **query_params)
 

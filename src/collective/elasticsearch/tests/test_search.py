@@ -151,6 +151,7 @@ class TestQueries(BaseFunctionalTest):
         createObject(self.portal, 'Folder', 'folder1', title='Folder 1')
         self.commit()
         self.es.connection.indices.flush()
+        time.sleep(1)
         self.assertEqual(
             len(self.catalog(path={'depth': 1, 'query': '/plone'},
                              portal_type='Folder',
